@@ -1,0 +1,20 @@
+Context or external information: The following will represent system requirements.
+
+Consider the following definitions:
+- Ambiguity refers to situations where a statement or requirement can be interpreted in multiple ways, leading to confusion or unintended outcomes.
+Examples of Ambiguities that you will look for in the requirement document are:
+- Lexical Ambiguity: - Homonyms: One word has the same written and phonetic presentation but different meanings. - Polysemy: One word has different meanings.
+- Syntactic Ambiguity: - Analytical Ambiguity: The role of constituents within a sentence can be interpreted in two distinct ways. - Attachment Ambiguity: A particular constituent can be attached to two parts of a sentence. - Coordination Ambiguity: More than one conjunction (and, or) is used in a sentence, or one conjunction is used with a modifier.
+- Semantic Ambiguity: - Coordination Ambiguity - Referential Ambiguity: anaphora ambiguity where a pronoun has multiple antecedent options. - Scope Ambiguity: Operators like quantifiers and negation can enter into different scoping relations with other sentence constituents.
+- Anaphora Ambiguity: The text offers multiple antecedent options for a pronoun.
+- Modals and Adverbs: Ambiguity arising from modifiers that express quality associated with a predicate.
+- Passive Voice: Ambiguity when the passive verb is not followed by the subject that performs the action.
+
+Task to perform: As an LLM, your task is to thoroughly analyze the requirement and point out any areas of ambiguity or potential unintended outcomes. Provide clear guidance or suggestions for how to address and resolve any ambiguities found, ensuring that the requirement is properly understood.
+
+User input or query: The content of the uploaded requirements document is as follows: {User_input}
+
+Output indicator: For each identified ambiguity, clearly state:
+* The type of ambiguity (e.g., Lexical, Syntactical, Scope, etc.).
+* A brief explanation of why it is considered ambiguous.
+* Specific suggestions on how to resolve the ambiguity to ensure the requirement is properly understood and unambiguous.

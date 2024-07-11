@@ -1,0 +1,8 @@
+streamlit
+openai== 0.28
+pyyaml
+pandas
+langchain
+langchain_community
+backoff
+langchain_openai
